@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baskin_clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img class="nav-img" src="https://logos-world.net/imageup/Baskin_Robbins/Baskin_Robbins-Logo-PNG12.png"
+                alt="bondsindia">
+        </div>
+        <nav>
+            <div class="nav-icon"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            <ul class="nav-list" id="navlist">
+                <li class="nav-item">Shop</li>
+                <li class="nav-item">Partner With Us</li>
+                <li class="nav-item">About Us</li>
+                <li class="nav-item">Our Stores</li>
+            </ul>
+        </nav>
+        <div>
+            <button>Shop</button>
+        </div>
+    </header>
+
+    <!-- image slide section -->
+    <section>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="https://cdn.shopify.com/s/files/1/0624/7065/2146/files/Homepage-02_1024x.png?v=1680789365"
+                    style="width:100%">
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="https://cdn.shopify.com/s/files/1/0624/7065/2146/files/banner-1200-x-720_R1-01_1024x.png?v=1682659783"
+                    style="width:100%">
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="https://cdn.shopify.com/s/files/1/0624/7065/2146/files/banner-04_1024x.jpg?v=1682498054"
+                    style="width:100%">
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="https://cdn.shopify.com/s/files/1/0624/7065/2146/files/banner-05_1024x.jpg?v=1682498152"
+                    style="width:100%">
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="https://cdn.shopify.com/s/files/1/0624/7065/2146/files/Homepage_r1-12_1024x.png?v=1681196494"
+                    style="width:100%">
+
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </section>
+    <!-- card section -->
+    <div class="section-body" style="background-color: white;">
+        <h1 class="card-heading"><i>What's New?</i></h1>
+        <section class="card-section1">
+
+            <div class="swiper mySwiper container">
+                <div class="swiper-wrapper content">
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="https://images.pexels.com/photos/461189/pexels-photo-461189.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                    alt="">
+                            </div>
+
+                            <div class="name-profession">
+                                <span class="name">Ice Cream No:1</span>
+
+                            </div>
+
+                            <div class="button">
+                                <button class="aboutMe">Order Now</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="https://images.pexels.com/photos/1006190/pexels-photo-1006190.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                    alt="">
+                            </div>
+                            <div class="name-profession">
+                                <span class="name">Ice Cream No:2</span>
+
+                            </div>
+                            <div class="button">
+                                <button class="aboutMe">Order Now</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="https://images.pexels.com/photos/749102/pexels-photo-749102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                    alt="">
+                            </div>
+                            <div class="name-profession">
+                                <span class="name">Ice Cream No:3</span>
+
+                            </div>
+
+                            <div class="button">
+                                <button class="aboutMe">Order Now</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="https://images.pexels.com/photos/1343504/pexels-photo-1343504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                    alt="">
+                            </div>
+                            <div class="name-profession">
+                                <span class="name">Ice Cream No:4</span>
+
+                            </div>
+
+                            <div class="button">
+                                <button class="aboutMe">Order Now</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="https://images.pexels.com/photos/1625235/pexels-photo-1625235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                    alt="">
+                            </div>
+
+                            <div class="name-profession">
+                                <span class="name">Ice Cream No:5</span>
+
+                            </div>
+
+                            <div class="button">
+                                <button class="aboutMe">Order Now</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="https://images.pexels.com/photos/3631/summer-dessert-sweet-ice-cream.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                    alt="">
+                            </div>
+
+                            <div class="name-profession">
+                                <span class="name">Ice Cream No:6</span>
+
+                            </div>
+
+                            <div class="button">
+                                <button class="aboutMe">Order Now</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="https://images.pexels.com/photos/108370/pexels-photo-108370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                    alt="">
+                            </div>
+
+                            <div class="name-profession">
+                                <span class="name">Ice Cream No:7</span>
+
+                            </div>
+
+                            <div class="button">
+                                <button class="aboutMe">Order Now</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="https://images.pexels.com/photos/1362534/pexels-photo-1362534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                    alt="">
+                            </div>
+
+                            <div class="name-profession">
+                                <span class="name">Ice Cream No:8</span>
+
+                            </div>
+
+                            <div class="button">
+                                <button class="aboutMe">Order Now</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="https://media.gettyimages.com/id/157472912/photo/ice-cream-composition-on-a-bowl.jpg?s=612x612&w=gi&k=20&c=AniWX1OhaarUxCkgjUoKiA3bKVllK0upCylW6Z0PCMQ="
+                                    alt="">
+                            </div>
+
+                            <div class="name-profession">
+                                <span class="name">Ice Cream No:9</span>
+
+                            </div>
+
+                            <div class="button">
+                                <button class="aboutMe">Order Now</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </section>
+
+    </div>
+
+    <div class="section-body" style="background-color: rgb(199, 178, 199);">
+        <h1 class="card-heading1"><i>Shop by Range</i></h1>
+        <section class="card-section1">
+
+            <div class="swiper mySwiper container">
+                <div class="swiper-wrapper content">
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image1">
+                                <img src="https://www.thespruceeats.com/thmb/BW-xclw0817YVRFoqODASGtOP1s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ice-cream-float-4846526-hero-03_alt-e5f74e7cac504fd7b18bd95b6b7be6c6.jpg"
+                                    alt="">
+                            </div>
+
+                            <div class="name-profession">
+                                <span class="name">Floats</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image1">
+                                <img src="https://www.havmor.com/sites/default/files/styles/380x273/public/products/Chocolate%20Cake-lisiting.jpg?itok=hYjZSc2r"
+                                    alt="">
+                            </div>
+                            <div class="name-profession">
+                                <span class="name">Ice Cream Cake</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image1">
+                                <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1081492_11-5ff297c.jpg?resize=960,872"
+                                    alt="">
+                            </div>
+                            <div class="name-profession">
+                                <span class="name">Fruit Cream Sundaes</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image1">
+                                <img src="https://cdn.britannica.com/50/80550-050-5D392AC7/Scoops-kinds-ice-cream.jpg"
+                                    alt="">
+                            </div>
+                            <div class="name-profession">
+                                <span class="name">Ice Cream</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image1">
+                                <img src="https://i0.wp.com/smittenkitchen.com/wp-content/uploads//2018/05/ice-cream-cake-roll.jpg?fit=1200%2C800&ssl=1"
+                                    alt="">
+                            </div>
+
+                            <div class="name-profession">
+                                <span class="name">Ice Cream Roll Cake</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image1">
+                                <img src="https://www.thecookierookie.com/wp-content/uploads/2018/04/apple-cheddar-waffle-sandwich-maple-dijon-3-of-10-500x500.jpg"
+                                    alt="">
+                            </div>
+
+                            <div class="name-profession">
+                                <span class="name">Waffle Sandwich</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </section>
+
+    </div>
+
+    <div class="section-body" style="background-color:white;">
+        <h1 class="card-heading2">All time <br> Favorites</h1>
+        <section class="card-section1">
+
+            <div class="swiper mySwiper container">
+                <div class="swiper-wrapper content">
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image1">
+                                <img src="https://m.media-amazon.com/images/I/518KJ5zhjhL._SL1000_.jpg" alt="">
+                            </div>
+
+                            <div class="name-profession">
+                                <span class="name">Black Current</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image1">
+                                <img src="https://cdn.shopify.com/s/files/1/0582/2693/3947/products/DSC07752_600x.jpg?v=1639462532"
+                                    alt="">
+                            </div>
+                            <div class="name-profession">
+                                <span class="name">Hazelnut Rocher</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image1">
+                                <img src="https://www.bigbasket.com/media/uploads/p/l/40126055_1-baskin-robbins-ice-cream-very-berry-strawberry.jpg"
+                                    alt="">
+                            </div>
+                            <div class="name-profession">
+                                <span class="name">Very Berry Strawberry</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image1">
+                                <img src="https://b.zmtcdn.com/data/dish_photos/3ca/29359cf5348a199580a7aa2a3381e3ca.jpg"
+                                    alt="">
+                            </div>
+                            <div class="name-profession">
+                                <span class="name">Three Cheers Chocolate</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image1">
+                                <img src="https://www.bigbasket.com/media/uploads/p/xxl/40126062_3-baskin-robbins-ice-cream-classic-vanilla.jpg"
+                                    alt="">
+                            </div>
+
+                            <div class="name-profession">
+                                <span class="name">Classic Vanilla</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image1">
+                                <img src="https://www.bigbasket.com/media/uploads/p/l/40256982_1-cream-bell-cookies-n-cream-500ml.jpg"
+                                    alt="">
+                            </div>
+
+                            <div class="name-profession">
+                                <span class="name">Cookies 'N Cream</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </section>
+
+    </div>
+
+    <footer style="background-color: rgb(199, 178, 199);">
+        <div class=" footer-item">
+            <ul>
+                <li>Home</li>
+                <li>About us</li>
+                <li>Our Stores</li>
+                <li>Blog</li>
+            </ul>
+            <ul>
+                <li>Contact Us</li>
+                <li>Franchise Enquiry</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Condition</li>
+            </ul>
+            <ul>
+                <li>Subscribe to news letter</li>
+                <li>
+                    <input type="text" placeholder="enter your email">
+                    <button>Submit</button>
+                </li>
+
+            </ul>
+        </div>
+        <div class="footer-item1">
+            <p>Copyright | Baskins Robbins India</p>
+            <ul>
+                <li><i class="fa-brands fa-youtube"></i></li>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+            </ul>
+            <p>SiteMap</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
